@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\graph.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\sorting.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\graph.h" />
+    <ClInclude Include="src\node.h" />
     <ClInclude Include="src\sorting.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\AssignmentNodes.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
