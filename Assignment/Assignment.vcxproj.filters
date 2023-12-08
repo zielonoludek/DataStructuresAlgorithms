@@ -37,7 +37,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\Downloads\AssignmentNodes.txt">
+    <Text Include="AssignmentNodes.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

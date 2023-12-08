@@ -137,7 +137,7 @@
     <ClInclude Include="src\sorting.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\Downloads\AssignmentNodes.txt" />
+    <Text Include="AssignmentNodes.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

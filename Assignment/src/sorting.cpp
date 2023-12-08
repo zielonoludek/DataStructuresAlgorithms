@@ -1,6 +1,6 @@
 #include "sorting.h"
 
-void PrintArray(int arr[], int length) 
+void PrintArray(int arr[], int length)
 {
 	for (int i = 0; i < length; i++) std::cout << arr[i] << " ";
 	std::cout << std::endl << std::endl;
@@ -16,7 +16,7 @@ void SelectionSort(int arr[], int length)
 		if (min != i) std::swap(arr[min], arr[i]);
 	}
 };
-void BubbleSort(int arr[], int length) 
+void BubbleSort(int arr[], int length)
 {
 	for (int i = 0; i < length - 1; i++) {
 		bool swapped = false;
@@ -29,7 +29,7 @@ void BubbleSort(int arr[], int length)
 		if (!swapped) break;
 	}
 };
-void InsertionSort(int arr[], int length) 
+void InsertionSort(int arr[], int length)
 {
 	for (int i = 1; i < length; i++) {
 		int j = i;
@@ -54,7 +54,7 @@ int Partition(int arr[], int min, int max)
 	std::swap(arr[pIndex + 1], arr[max]);
 	return pIndex + 1;
 }
-void Quicksort(int arr[], int min, int max) 
+void Quicksort(int arr[], int min, int max)
 {
 	if (min < max) {
 		int pivotIndex = Partition(arr, min, max);
@@ -62,17 +62,4 @@ void Quicksort(int arr[], int min, int max)
 		Quicksort(arr, min, pivotIndex - 1);
 		Quicksort(arr, pivotIndex + 1, max);
 	}
-};
-
-void CountingSort(int arr[], int length)
-{
-
-};
-void Mergesort(int arr[], int length)
-{
-
-};
-void Heapsort(int arr[], int length)
-{
-
 };
