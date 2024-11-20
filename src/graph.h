@@ -10,7 +10,7 @@ public:
     std::vector<std::vector<Node*>> nodeGrid;
     Node* start;
     Node* end;
-    
+
     Graph();
     void AddNode(Node* node);
     void ConnectNodes(Node* n1, Node* n2);

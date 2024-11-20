@@ -1,6 +1,6 @@
 #include "graph.h"
 
-Graph::Graph() : start(nullptr), end(nullptr){}
+Graph::Graph() : start(nullptr), end(nullptr) {}
 void Graph::AddNode(Node* node) {
 	nodes.push_back(node);
 }

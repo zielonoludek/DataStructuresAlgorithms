@@ -51,7 +51,7 @@ int main()
 	graph.LoadToGraph(nodes);
 
 	//for (int i = 0; i < 10; i++) Sorting();
-	for (int i = 0; i < 10; i++) SearchGraph(graph);
+	//for (int i = 0; i < 10; i++) SearchGraph(graph);
 
 	return 0;
 }
